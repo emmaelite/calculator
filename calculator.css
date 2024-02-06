@@ -1,0 +1,107 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: green;
+    font-family: sans-serif;
+}
+.content {
+    width: 800px;
+    margin: 80px auto;
+    background-color: #333;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    padding: 20px 30px;
+}
+.box {
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    height: 500px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px;
+    padding-top: 20px;
+}
+.we {
+    display: flex;
+    gap: 30px;
+    margin: 5px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    border: none;
+    background: none;
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+}
+.divide {
+    background-color: green;
+    font-size: 2rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+}
+.times {
+    background-color: orangered;
+    font-size: 2rem;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.minus {
+    background-color: orange;
+    font-size: 2rem;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.plus {
+    background-color: red;
+    font-size: 2rem;
+    text-align: center;
+    width: 405x;
+    height: 45px;
+    border-radius: 50%;
+}
+.equals {
+    background-color: yellow;
+    font-size: 2rem;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.on {
+    display: flex;
+    gap: 30px;
+    margin: 5px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.off {
+    display: flex;
+    gap: 30px;
+    margin: 5px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    height: 30px;
+    width: 90%;
+    border: 0;
+    padding: 23px;
+    font-size: 2rem;
+    text-align: right;
+}
